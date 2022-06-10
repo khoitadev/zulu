@@ -1,0 +1,404 @@
+/* header */
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4rem;
+}
+
+.nav__list {
+    display: flex;
+    align-items: center;
+}
+
+.nav__item {
+    margin: 0 28px;
+}
+
+.nav__item-link {
+    text-decoration: none;
+    font-size: 1.8rem;
+    color: var(--text-color);
+}
+
+.nav__acc {
+    display: flex;
+    align-items: center;
+}
+
+.nav__acc-login {
+    text-decoration: none;
+    font-size: 1.8rem;
+    color: var(--text-color);
+    margin-right: 24px;
+}
+
+.nav__acc-sign {
+    text-decoration: none;
+    font-size: 1.8rem;
+}
+
+.nav__btn {
+    display: none;
+    margin-left: 2.4rem;
+}
+
+.nav__btn i {
+    display: inline-block;
+    font-size: 3rem;
+}
+
+
+/* slider */
+
+.slider {
+    margin-top: 10rem;
+}
+
+.silder__info-heading {
+    font-size: 5.5rem;
+    font-weight: 700;
+    margin-bottom: 4rem;
+}
+
+.slider__info-text {
+    font-size: 1.8rem;
+    font-weight: 300;
+    color: rgb(145, 143, 143);
+    margin-bottom: 3rem;
+}
+
+.btn-after {
+    margin-left: 3rem;
+}
+
+
+/* works */
+
+.works {
+    margin-bottom: 10rem;
+}
+
+.work__item {
+    text-align: center;
+    padding: 3.5rem;
+    border: 1px solid #f4f4f4;
+    border-radius: 1.5rem;
+}
+
+.work__item:hover {
+    border: none;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15);
+}
+
+.work__item-heading {
+    margin: 2.5rem 0;
+    font-size: 2.8rem;
+    font-weight: 600;
+}
+
+.work__item-text {
+    font-size: 1.8rem;
+    margin-bottom: 3rem;
+    color: rgb(145, 143, 143);
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+}
+
+
+/* studio */
+
+.studio {
+    margin-bottom: 10rem;
+}
+
+.studio__des {
+    padding-right: 10rem;
+}
+
+.studio__des-title {
+    font-size: 1.7rem;
+    font-weight: 600;
+    position: relative;
+    padding-left: 8px;
+}
+
+.studio__des-title::before {
+    content: "";
+    width: 3rem;
+    height: 2px;
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: -3rem;
+    transform: translateY(-50%);
+    background-color: var(--primary-color);
+}
+
+.studio__des-heading {
+    margin: 5rem 0;
+    font-size: 6rem;
+    font-weight: 700;
+}
+
+.studio__des-text {
+    font-size: 1.8rem;
+    margin-bottom: 3rem;
+    color: rgb(145, 143, 143);
+}
+
+.studio__img {
+    margin-top: 5rem;
+}
+
+
+/* pricing */
+.pricing {
+    margin-bottom: 10rem;
+}
+
+.pricing__item {
+    padding: 2.5rem;
+    border: 1px solid #ccc;
+    border-radius: 1.5rem;
+    height: 100%;
+    display:flex;
+    flex-direction: column;
+}
+
+.pricing__item-signs {
+    position: relative;
+}
+.pricing__item-popular {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 1rem 1.5rem;
+    color: #fff;
+    background-color: #ff858d;
+    font-size: 1.6rem;
+    border-top-right-radius: 1.5rem;
+    border-bottom-left-radius: 1.5rem;
+}
+
+.pricing__item-header {
+    border-bottom: 1px solid #ccc;
+}
+
+.pricing__item-heading {
+    font-size: 2.4rem;
+}
+
+.pricing__item-num {
+        display: flex;
+        align-items: baseline;
+        margin-left: 4px;
+        padding: 2rem 0
+}
+
+.pricing__item-num .usd {
+    align-self: start;
+    font-size: 1.4rem;
+}
+
+.pricing__item-num .number {
+    font-size: 5rem;
+    font-weight: 400;
+
+}
+
+.pricing__item-num .month {
+    font-size: 1.6rem;
+}
+
+.pricing__item-name {
+    font-size: 2.4rem;
+    margin-bottom: 2.5rem;
+}
+
+.pricing__item-title {
+    font-size: 1.8rem;
+    margin: 3rem 0;
+    color: rgb(145, 143, 143);
+}
+
+.pricing__item-text {
+    display: block;
+    font-size: 1.8rem;
+    color: rgb(145, 143, 143);
+    margin-bottom: 2.5rem;
+}
+
+.pricing__item-text:last-of-type {
+    margin-bottom: 7.5rem;
+}
+
+.pricing__item-link {
+    margin: auto auto 0;
+    display: block;
+    width: max-content;
+}
+
+/* people */
+.people {
+    margin-bottom: 10rem;
+}
+
+.people__item{
+    text-align: center;
+    padding: 2.5rem;
+    border: 1px solid #ccc;
+    border-radius: 1.5rem;
+}
+.people__item-header{
+    border-bottom: 1px solid #ccc;
+    padding: 1.6rem;
+}
+.people__item-heading{
+    font-size: 3rem;
+
+}
+.people__item-des{
+    font-size: 1.6rem;
+    color: rgb(124, 124, 124);
+}
+.people__item-text{
+    margin: 2rem 0 2.5rem;
+    font-size: 1.8rem;
+    color: rgb(145, 143, 143);
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+}
+.people__item-star{
+    font-size: 2rem;
+    color: rgb(243, 190, 55);
+}
+
+/* studio */
+
+.studio__item{
+    text-align: center;
+}
+
+.studio__item-img {
+    margin-top: 20rem;
+}
+
+.studio__item-des {
+    margin-bottom: 3rem;
+}
+
+
+.studio__item-text{
+    display: block;
+    font-size: 1.8rem;
+    max-width: 25rem;
+    margin: 0 auto 3rem;
+}
+
+/* footer */
+
+.footer{
+    margin-bottom: 5rem;
+}
+
+.footer-title{
+    display: inline-block;
+    font-size: 1.8rem;
+    max-width: 25rem;
+    margin: 3rem 0;
+}
+.footer__link-icon{
+    position: relative;
+    width: 4rem;
+    height: 4rem;
+    display: inline-block;
+    color: #fff;
+    font-size: 1.4rem;
+    margin-right: 1.6rem;
+    border-radius: 50%;
+}
+
+.footer__link-icon i{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.footer__link-icon:first-child {
+    background-color: #ff7879;
+}
+
+.footer__link-icon:nth-child(2) {
+    background-color: #7aafff;
+}
+.footer__link-icon:last-child {
+    background-color: #ffb978;
+}
+
+.footer__heading{
+    font-size: 2rem;
+}
+.footer__link{
+    display: block;
+    color: var(--text-color);
+    font-size: 1.6rem;
+    margin-top: 2rem;
+}
+
+@media screen and (max-width: 1023px) {
+    .nav__list {
+        display: none;
+    }
+    .nav__btn {
+        display: inline-block;
+    }
+    .slider {
+        margin-top: 5rem;
+    }
+    .silder__info-heading {
+        font-size: 3.5rem;
+        margin-bottom: 2rem;
+    }
+    .btn-after {
+       margin-left: 0;
+       margin-top: 1rem;
+    }
+    .people {
+        margin-bottom: 5rem;
+    }
+    .des {
+        margin: 5rem 0;
+    }
+    .studio {
+        margin-bottom: 5rem;
+    }
+    .studio__des {
+        padding-right: 0;
+    }
+    .studio__des-heading {
+        font-size: 3rem;
+    }
+}
+
+@media screen and (max-width: 739px) {
+    .nav__acc-login,
+    .nav__acc-sign {
+        display: none;
+    }
+    .work__item {
+        margin-bottom: 2rem;
+    }
+    .pricing__item {
+        height: auto;
+        margin-bottom: 2rem;
+    }
+    .people__item {
+        margin-bottom: 2rem;
+    }
+}
